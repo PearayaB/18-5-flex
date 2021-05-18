@@ -5,34 +5,21 @@
 }
 .inline-flex-container{
     display: inline-flex;
-    flex-direction: row;
-}
-.bg-red{
-    background-color: red;
+    flex-direction: column;
 }
 .bg-blue{
-    background-color: skyblue;
+    background-color: lightgrey;
 }
 .flex-container>div{
-    background-color: darkgrey;
+    background-color: gray;
     margin: 10px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
+    
 }
 .inline-flex-container>div{
     background-color: lightgray;
     margin: 20px;
     padding: 10px;
     font-size: 25px;
-}
-.d1{
-    order: 1;
-}
-.d2{
-    order: 2;
-    flex-grow: 1;
-}
-.d3{
-    order: 3;
-    flex-grow: 1;
 }
